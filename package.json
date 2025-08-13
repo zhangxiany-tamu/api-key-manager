@@ -1,0 +1,22 @@
+{
+  "name": "api-key-manager",
+  "version": "1.0.0",
+  "description": "Secure API key manager for LLM providers",
+  "main": "src/cli.js",
+  "scripts": {
+    "start": "node src/cli.js",
+    "web": "node src/server.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "keywords": ["api-keys", "security", "llm", "encryption"],
+  "author": "API Key Manager",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangxiany-tamu/api-key-manager.git"
+  }
+}
